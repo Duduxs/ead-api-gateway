@@ -1,0 +1,14 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: ead-api-gateway
+  cloud:
+    gateway:
+      routes:
+        - id: authuser-service
+          uri: https://localhost:8087/
+          predicates:
+            - Path=/red/{segment},/blue/{segment}
+
