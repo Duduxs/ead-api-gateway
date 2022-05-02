@@ -3,7 +3,7 @@
   
   <p>Cross Cuting Project of the ead's microservice group</p>
   
-  <p>It was created in order to be an entry point, encapsulate the arch and router requisitions.</p>
+  <p>It was created in order to be an entry point, encapsulate the arch and routes requests.</p>
     
 </h4>
 
